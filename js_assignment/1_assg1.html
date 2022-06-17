@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Checking if a number is integer or not</h1>
+        <script>
+            var n;
+            function is_integer(n){
+               if(Number.isInteger(n))
+                  document.write(n+" is integer"+"<br>");
+               
+                else
+                  document.write(n+" is not an integer"+"<br>");
+                
+            }
+            is_integer(4);
+            is_integer(78.78);
+            is_integer("hello");
+        </script>
+    </body>
+</html>

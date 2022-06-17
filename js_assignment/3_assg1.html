@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>Covertivg Celsius to Farenheit and Farenheit to Celsius</h1>
+        <script>
+            function to_celsius(f){
+                var c;
+                c=((f-32)/9)*5;
+                document.write(f+"  in celsius is  "+c+"C"+"<br>");
+            }
+            function to_farenheit(c){
+                var f;
+                f=((c/5)*9)+32;
+                document.write(c+"  in farenheit is  "+f+"F"+"<br>");
+            }
+            to_celsius(212);
+            to_celsius(98.6);
+            to_celsius(-35.5);
+            to_farenheit(37);
+            to_farenheit(0);
+            to_farenheit(-273.15);
+        </script>
+    </body>
+</html>
