@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            var br="<br>"
+            function Rectangle(l,b){
+                this.l=l;
+                this.b=b;
+                this.area=function(){ return this.l*this.b};
+                this.perimeter=function(){ return 2*(this.l+this.b)};
+            }
+            var a=new Rectangle(2,3);
+            document.write("area:"+a.area());
+            document.write(br);
+            document.writeln("perimeter:"+a.perimeter());
+        </script>
+    </body>
+</html>

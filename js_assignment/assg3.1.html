@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <script>
+             var arr=["hello","a","abc"];
+            function long_str(s)
+            {
+               var long=s[0].length;
+               var a=s[0];
+               for(i=1;i<s.length;i++)
+               {
+                if(s[i].length>long)
+                {
+                    long=s[i].length;
+                    a=s[i];
+                }
+               }
+               return a;
+            }
+           
+            var k=arr.reduce(long_str);
+            document.write(k);
+        </script>
+    </body>
+</html>

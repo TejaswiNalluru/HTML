@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <script>
+            var a=[1,2,33,444,5555];
+            var br="<br>"
+            document.write(a.filter(function(s){
+                return s%2==0;
+            }));
+            document.write(br);
+            document.write(a.filter(function (s)
+            {
+                return s%2!=0;
+            }))
+        </script>
+    </body>
+</html>
